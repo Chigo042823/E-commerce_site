@@ -8,15 +8,26 @@
 </head>
 <body class="bg-gray-100">
     <nav id="navBar" class="w-full h-20 fixed top-0">
-        <ul class="flex gap-4 mt-6 ml-4 text-lg text-slate-700">
+        <ul id="navList" class="flex gap-4 mt-6 ml-4 text-lg text-slate-700">
             <li><p class="font-bold text-xl">Company Name</p></li>
-            <li>Home</li>
-            <li>What's New</li>
-            <li>Categories</li>
-            <li>Products</li>
-            <li class="ml-auto mr-1"><i class="fa-solid fa-cart-shopping fa-xl"></i></li>
-            <li class="mr-6 text-lg font-bold"><i class="fa-solid fa-user fa-xl mr-2"></i>User</li>
+            <li id="nav1">Home</li>
+            <li id="nav2">What's New</li>
+            <li id="nav3">Categories</li>
+            <li id="nav4">Products</li>
+            <li id="nav5" class="ml-auto mr-1"><i class="fa-solid fa-cart-shopping fa-xl"></i></li>
+            <li id="nav6" class="mr-6 text-lg font-bold"><i class="fa-solid fa-user fa-xl mr-2"></i>User</li>
+            <li id="hamburger" class="mr-6 ml-auto text-lg font-bold" style="display: none;"><i class="fa-solid fa-bars fa-xl mr-2"></i></li>
         </ul>
+        <div id="drop" class="fixed right-4 h-fit w-60 rounded-2xl" style="display: none;">
+            <ul class='text-center text-xl'>
+                <li class='p-2'><a src=''>User</a>
+                </li><li class='p-2'><a src=''>My Cart</li>
+                <li class='p-2'><a src=''>Home</a></li>
+                <li class='p-2'><a src=''>What's New</a></li>
+                <li class='p-2'><a src=''>Categories</a></li>
+                <li class='p-2 pb-4'><a src=''>Products</a></li>
+                </ul>
+        </div>
     </nav>
     <div id="hero" class="h-screen w-full overflow-auto md:h-fit">
         <section class="w-full h-screen bg-cover p-7 pt-24 items-center flex" style="background-image: url('../img/ad2.jpg'); ">
