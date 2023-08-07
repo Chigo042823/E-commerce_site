@@ -20,7 +20,7 @@ let widthCheck = function() {
 
 document.addEventListener('load', widthCheck());
 
-window.addEventListener('resize', widthCheck());
+window.addEventListener('resize', widthCheck);
 
 const drop = document.querySelector('#drop');
 
