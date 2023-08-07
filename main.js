@@ -36,6 +36,9 @@ let navGone = function() {
     document.getElementById("navList").style.transition = "transform 0.6s";
     document.getElementById("navList").style.transitionTimingFunction = "ease-out";
     document.getElementById("navList").style.transform = "translate(0, -10vh)";
+    document.getElementById("hamburger").style.transition = "transform 0.6s";
+    document.getElementById("hamburger").style.transitionTimingFunction = "ease-out";
+    document.getElementById("hamburger").style.transform = "translate(0, 10vh)";
 }
 
 document.addEventListener('scroll', navGone)
@@ -49,10 +52,12 @@ let navBack = function() {
     document.getElementById("navList").style.transition = "transform 0.6s";
     document.getElementById("navList").style.transitionTimingFunction = "ease-out";
     document.getElementById("navList").style.transform = "translate(0, 0)";
+    document.getElementById("hamburger").style.transition = "transform 0.6s";
+    document.getElementById("hamburger").style.transitionTimingFunction = "ease-out";
+    document.getElementById("hamburger").style.transform = "translate(0, 0)";
 }
 
 document.getElementById('navBar').addEventListener('mouseover', navBack)
-document.getElementById('navBar').addEventListener('click', navBack)
 
 let animateHero = function() {
     document.getElementById("heroTitle").style.transition = "transform 1.3s";
