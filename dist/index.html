@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,10 +11,14 @@
     <nav id="navBar" class="w-full h-20 fixed top-0 z-10">
         <ul id="navList" class="flex gap-4 mt-6 ml-4 text-lg text-slate-700">
             <li><p class="font-bold text-xl">Company Name</p></li>
-            <li id="nav1">Home</li>
-            <li id="nav2">What's New</li>
-            <li id="nav3">Categories</li>
-            <li id="nav4">Products</li>
+            <li id="nav1"><a href="#" class="
+                hover:font-bold hover:mx-2 transition-all duration-200 ease-in">Home</a></li>
+            <li id="nav2"><a href="" class="
+                hover:font-bold hover:mx-2 transition-all duration-200 ease-in">What's New</a></li>
+            <li id="nav3"><a href="" class="
+                hover:font-bold hover:mx-2 transition-all duration-200 ease-in">Categories</a></li>
+            <li id="nav4"><a href="#products" class="
+                hover:font-bold hover:mx-2 transition-all duration-200 ease-in">Products</a></li>
             <li id="nav5" class="ml-auto mr-1"><i class="fa-solid fa-cart-shopping fa-xl"></i></li>
             <li id="nav6" class="mr-6 text-lg font-bold"><i class="fa-solid fa-user fa-xl mr-2"></i>User</li>
             <li id="hamburger" class="mr-6 ml-auto text-lg font-bold" style="display: none;"><button type="button"><i class="fa-solid fa-bars fa-xl mr-2"></i></button></li>
@@ -48,7 +52,7 @@
             <div class="lg:h-full w-full mx-7 my-4 h-fit md:h-fit">
                 <div class="lg:h-1/2 w-full lg:flex gap-x-4 lg:flex-wrap lg:overflow-visible 
                 h-fit md:h-fit md:justify-center">
-                    <div class="lg:h-full sm:h-2/3 mb-4 sm:w-full lg:w-96 flex bg-gray-50 shadow-lg rounded-xl
+                    <div id="products" class="lg:h-full sm:h-2/3 mb-4 sm:w-full lg:w-96 flex bg-gray-50 shadow-lg rounded-xl
                     hover:bg-gray-200 hover:-translate-y-2 transition-all duration-200 ease-in">
                         <div class="h-full w-2/3 overflow-clip rounded-l-xl">
                             <img src="../img/gallery.jpg" alt="">
