@@ -2,7 +2,6 @@ let widthCheck = function() {
     if (this.window.innerWidth <= 700) {
         this.document.querySelector('#nav1').style.display = "none";
         this.document.querySelector('#nav2').style.display = "none";
-        this.document.querySelector('#nav3').style.display = "none";
         this.document.querySelector('#nav4').style.display = "none";
         this.document.querySelector('#nav5').style.display = "none";
         this.document.querySelector('#nav6').style.display = "none";
@@ -10,7 +9,6 @@ let widthCheck = function() {
     } else {
         this.document.querySelector('#nav1').style.display = "inline";
         this.document.querySelector('#nav2').style.display = "inline";
-        this.document.querySelector('#nav3').style.display = "inline";
         this.document.querySelector('#nav4').style.display = "inline";
         this.document.querySelector('#nav5').style.display = "inline";
         this.document.querySelector('#nav6').style.display = "inline";
